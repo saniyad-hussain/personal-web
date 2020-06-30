@@ -48,6 +48,10 @@ p{
     color: #fff;
     border-radius: 8px;
 }
+.btn:hover{
+    background: linear-gradient(to right, #4553d6, #ff5e62);
+    transition: ease-in-out;
+}
 .biography{
     padding: 45px 55px;
     background-image: url("images/biography-bg.png");
@@ -127,6 +131,30 @@ p{
 .contact-info span{
     font-size: 20px;
     font-weight: bold;
+}
+.experience-area{
+    height: 500px;
+    padding: 0;
+    background-image: url("images/header-bg.png");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.experience1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(69, 180, 245), rgb(187, 14, 202));
+    border-image-slice: 1;
+}
+.experience2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(234, 238, 14), rgb(228, 10, 173));
+    border-image-slice: 1;
+}
+.exp {
+    font-size: 40px;
+    text-align: center;
+    color:#4AC29A;
 }
 footer p{
     text-align: center;
